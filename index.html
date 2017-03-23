@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#myModal").modal('show');
+	});
+</script>
+	<title>welcome</title>
+</head>
+<body>
+<!-- modal indicating that this site talks about violent content-->
+<div>
+<ul>
+	<li><a href="index.html">home</a></li>
+	<li><a href="origins.html">origins</a></li>
+	<li><a href="doomguy.html">doom marine</a></li>
+	<li><a href="mod.html">mod community</a></li>
+	<li><a href="game.html">DOOM</a></li>
+	<li><a href="reading.html">texts</a></li>
+	<li><a href="author.html">about</a></li>
+</ul>
+</div>
+<div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Warning!</h4>
+            </div>
+            <div class="modal-body">
+				<p>This website may contain violent or otherwise objectionable content.<br>Is this ok?</p>
+                <form>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">Yes</button>
+                       <input type="button" onclick="location.href='https://www.youtube.com/watch?v=8QdvLwfuJ60';" value="GET ME OUT OF HERE" />
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- this image is from the e3 announcement of doom 4, it was sourced from https://media.giphy.com/media/UJgzsp2IjxUuQ/giphy.gif -->
+<div style="text-align: center;"><img src="logo.gif" width="850px"; height="600px"></div>
+</body>
+</html>

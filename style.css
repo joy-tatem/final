@@ -1,0 +1,86 @@
+body{background-color: black; color: darkred; 
+	font-family: 'Aldrich', sans-serif; margin: 50px;}
+header{color: darkred; 
+	font-family: 'Aldrich', 
+	sans-serif;text-align: center;}
+    button, input{
+    background-color: darkred;
+    font-family:'Aldrich', sans-serif;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+div.data{display: inline-flex;}
+ul{color:darkred;font-size: 20px;}
+@keyframes slider{
+0% {
+    left:0;
+}
+20% {
+    left: 0;
+}
+25% {
+    left:-100%;
+}
+50% {
+    left: -200%;
+}
+70% {
+    left:-200%;
+}
+75% {
+    left: -300%;
+}
+95% {
+    left:-300%;
+}
+100% {
+    left: -400%;
+}
+}
+#slider {overflow: hidden;
+}
+#slider figure img {
+    width: 20%;
+    float: left;
+}
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 20s slider infinite;
+}
+
+a:link {
+    color: darkred;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #111;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: darkred;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #333;
+}
